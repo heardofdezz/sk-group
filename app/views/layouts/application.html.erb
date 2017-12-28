@@ -7,19 +7,9 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-  <div class="container">
-      <nav>
-
-          <ul class="nav nav-tabs" role="tablist">
-              <li>SportSKorner</li>
-              <li>Tournament</li>
-              <li></li>
-          </ul>
-
-
-      </nav>
-</div>
   <body>
+    <%= render 'layouts/navbar' %>
+    
     <%= yield %>
   </body>
 </html>
