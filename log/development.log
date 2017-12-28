@@ -938,3 +938,19 @@ Completed 200 OK in 45ms (Views: 43.5ms)
 
 
 
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 19:01:56 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 4246ms (Views: 4064.1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 19:02:08 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 41ms (Views: 39.9ms)
+
+

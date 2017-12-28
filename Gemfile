@@ -31,6 +31,8 @@ end
 group :production do
   gem 'pg'
 end
+
+gem "font-awesome-rails"
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
