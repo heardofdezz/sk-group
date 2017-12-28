@@ -578,6 +578,293 @@ Processing by SkController#index as HTML
 Completed 200 OK in 274ms (Views: 270.2ms)
 
 
+
+Started GET "/" for 127.0.0.1 at 2017-12-28 17:13:23 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (19.3ms)
+Started GET "/" for 127.0.0.1 at 2017-12-28 17:13:24 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4026ms (Views: 3327.1ms)
+
+
+Completed 200 OK in 2723ms (Views: 2718.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-28 17:40:28 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 3076ms (Views: 2025.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-28 17:42:03 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navbar.html.erb (2.4ms)
+Completed 200 OK in 418ms (Views: 407.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-28 17:47:48 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_navbar.html.erb (8.8ms)
+Completed 200 OK in 2843ms (Views: 2140.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-28 17:56:55 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_navbar.html.erb (1.4ms)
+Completed 200 OK in 629ms (Views: 617.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-28 18:03:17 +0100
+  
+ArgumentError ('' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:6:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-12-28 18:03:31 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navbar.html.erb (2.9ms)
+Completed 200 OK in 303ms (Views: 299.0ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 18:03:39 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.1ms)
+Completed 200 OK in 304ms (Views: 300.5ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 18:03:42 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.2ms)
+Completed 200 OK in 266ms (Views: 262.7ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 18:04:41 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.2ms)
+Completed 200 OK in 274ms (Views: 249.5ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 18:04:45 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navbar.html.erb (2.1ms)
+Completed 200 OK in 397ms (Views: 393.1ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 18:05:16 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navbar.html.erb (1.9ms)
+Completed 200 OK in 262ms (Views: 258.6ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 18:05:21 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.1ms)
+Completed 200 OK in 253ms (Views: 249.9ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 18:12:44 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (1316.4ms)
+Completed 500 Internal Server Error in 1590ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `signup_path' for #<#<Class:0x007fec64303100>:0x007fec6429c9f0>):
+    44:     <!-- // END login -->
+    45:      <!-- Sign up -->
+    46: 
+    47:     <%= link_to "Sign Up", signup_path %>
+    48: 
+    49:      <!-- // END sign up -->
+    50:   </ul>
+  
+app/views/layouts/_navbar.html.erb:47:in `_app_views_layouts__navbar_html_erb__4106412894138558224_70326782495640'
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1143631299332755475_70326634718160'
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 18:13:29 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (10.2ms)
+Completed 200 OK in 390ms (Views: 385.1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:13:36 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navbar.html.erb (14.6ms)
+Completed 200 OK in 273ms (Views: 266.8ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:13:56 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navbar.html.erb (2.2ms)
+Completed 200 OK in 314ms (Views: 309.8ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:13:58 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.3ms)
+Completed 200 OK in 443ms (Views: 439.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:13:59 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:13:59 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (4.2ms)
+Completed 200 OK in 906ms (Views: 902.8ms)
+
+
+  Rendered layouts/_navbar.html.erb (3.0ms)
+Completed 200 OK in 765ms (Views: 757.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:14:01 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.5ms)
+Completed 200 OK in 304ms (Views: 300.5ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:14:03 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.7ms)
+Completed 200 OK in 317ms (Views: 313.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:14:03 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (9.4ms)
+Completed 200 OK in 360ms (Views: 356.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:14:04 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.5ms)
+Completed 200 OK in 421ms (Views: 416.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:14:04 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (4.2ms)
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:14:05 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (9.0ms)
+Completed 200 OK in 675ms (Views: 670.3ms)
+
+
+  Rendered layouts/_navbar.html.erb (2.1ms)
+Completed 200 OK in 483ms (Views: 480.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:14:07 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (3.6ms)
+Completed 200 OK in 408ms (Views: 403.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:15:17 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.2ms)
+Completed 200 OK in 296ms (Views: 289.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:15:38 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.2ms)
+Completed 200 OK in 382ms (Views: 378.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:16:37 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navbar.html.erb (2.9ms)
+Completed 200 OK in 359ms (Views: 355.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:17:03 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navbar.html.erb (2.8ms)
+Completed 200 OK in 323ms (Views: 315.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-28 18:17:08 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navbar.html.erb (2.3ms)
+Completed 200 OK in 209ms (Views: 205.6ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-28 18:17:11 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.4ms)
+Completed 200 OK in 318ms (Views: 303.1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-28 18:17:13 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navbar.html.erb (4.7ms)
+Completed 200 OK in 289ms (Views: 285.3ms)
+=======
 Started GET "/" for 127.0.0.1 at 2017-12-28 17:40:44 +0100
 Processing by SkController#index as HTML
   Rendering sk/index.html.erb within layouts/application
@@ -648,5 +935,6 @@ Processing by SkController#index as HTML
   Rendered sk/index.html.erb within layouts/application (0.2ms)
   Rendered layouts/_navbar.html.erb (0.4ms)
 Completed 200 OK in 45ms (Views: 43.5ms)
+
 
 
