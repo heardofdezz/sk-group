@@ -1,0 +1,2 @@
+class SkController < ApplicationController
+end

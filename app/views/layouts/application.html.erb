@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sportskorner</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <div class="container">
+      <nav>
+
+          <ul class="nav nav-tabs" role="tablist">
+              <li>SportSKorner</li>
+              <li>Tournament</li>
+              <li></li>
+          </ul>
+
+
+      </nav>
+</div>
+  <body>
+    <%= yield %>
+  </body>
+</html>
