@@ -4,11 +4,18 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
-#--------------Added by me --------------------------------------------------------------------------
+#--------------Added by Dezz --------------------------------------------------------------------------
 
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
 gem 'autoprefixer-rails'
+
+
+group :test do
+  gem "shoulda"
+  gem "faker"
+  gem "factory_girl_rails"
+end
 
 
 
