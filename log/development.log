@@ -1029,3 +1029,66 @@ Completed 200 OK in 41ms (Views: 39.9ms)
 
 
 >>>>>>> 00d0c7ec8e91b6f91d86b7e46f665bd2ae32fe81
+Started GET "/" for 127.0.0.1 at 2017-12-29 12:55:31 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (13.6ms)
+Started GET "/" for 127.0.0.1 at 2017-12-29 12:55:41 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.9ms)
+Completed 200 OK in 68272ms (Views: 68263.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_navbar.html.erb (2.7ms)
+Completed 200 OK in 76385ms (Views: 76328.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-12-29 12:57:03 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (2.5ms)
+Completed 200 OK in 453ms (Views: 449.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-29 12:57:09 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navbar.html.erb (3.1ms)
+Completed 200 OK in 584ms (Views: 580.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-29 12:57:12 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_navbar.html.erb (3.1ms)
+Completed 200 OK in 547ms (Views: 538.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-29 12:57:22 +0100
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navbar.html.erb (3.2ms)
+Completed 200 OK in 545ms (Views: 541.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (10.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/worldcup" for 127.0.0.1 at 2017-12-29 14:38:40 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SkController#worldcup as HTML
+  Rendering sk/worldcup.html.erb within layouts/application
+  Rendered sk/worldcup.html.erb within layouts/application (21.5ms)
+  Rendered layouts/_navbar.html.erb (3.0ms)
+Completed 200 OK in 3172ms (Views: 3140.2ms | ActiveRecord: 0.0ms)
+
+
