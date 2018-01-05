@@ -1,18 +1,59 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id=navbar-custom>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-custom">
   <%= link_to "Sport Korner", root_path, :class => "logo-title" %>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor03">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Tournois<span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" placeholder="Search" type="text">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+  <ul class="nav nav-tabs">
+    <li class="nav-item dropdown show">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Tournois</a>
+      <div class="dropdown-menu show" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 34px, 0px); top: 0px; left: 0px; will-change: transform;">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="nav navbar-nav navbar-right">
+    <!-- Login -->
+    <li class="dropdown">
+      <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">
+        <i class="fa fa-fw fa-lock"></i>
+        Login
+      </a>
+      <div class="dropdown-menu dropdown-size-280">
+        <form>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon">
+                <i class="fa fa-user"></i>
+              </span>
+              <input type="text" class="form-control" placeholder="Username">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon">
+                <i class="fa fa-shield"></i>
+              </span>
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Login
+              <i class="fa fa-sign-in"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </li>
+    <!-- Sign up -->
+
+    <!-- // END sign up -->
+    <%= link_to "Sign Up", signup_path, :class => "btn btn-danger navbar-btn"%>
+  </nav>
+  <!-- <div class="collapse navbar-collapse" id="navbarColor03"> <ul class="navbar-nav mr-auto"> <li class="nav-item active"> <a class="nav-link" href="#">Tournois<span class="sr-only">(current)</span></a> </li> </ul> <form class="form-inline my-2
+  my-lg-0"> <input class="form-control mr-sm-2" placeholder="Search" type="text"> <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> </form> </div> </nav> -->

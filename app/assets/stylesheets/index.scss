@@ -1,7 +1,7 @@
 /* Title-banner */
 .content {
   position: relative;
-  top: 100px;
+  top: 200px;
   height: 160px;
   font-family: 'Lato', sans-serif;
   font-size: 35px;
@@ -236,20 +236,19 @@
 // y = 4 -> Animation between two lines
 // x = 12.66 -> Time spent on a line
 // You can define a value and calculate the other if you want change speed or the number of lines
-
 /* Lorem ipsu */
 .text-banner {
   font-family: 'Lato', sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   line-height: 40px;
   color: #ecf0f1;
-  letter-spacing: -3px;
   font-weight: 400;
   text-align: center;
+  margin-top: 150px;
 }
 /* Box */
 .mainbox-container {
-  margin-top: 20px;
+  margin-top: 50px;
   padding: 30px;
   background: rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 14px 11px 34px -4px rgba(0, 0, 0, 0.54);
@@ -270,7 +269,7 @@
 }
 
 .flag {
-  width: 100px;
+  width: 50px;
 }
 
 #video-background {
