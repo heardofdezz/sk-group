@@ -1,0 +1,12 @@
+#navbar-custom {
+  padding: 0.3rem 10rem;
+}
+
+.logo-title {
+  color: red;
+  font-family: 'Racing Sans One', cursive;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  margin: 0 3rem;
+  font-size: 30px;
+  pointer-events: none;
+}
