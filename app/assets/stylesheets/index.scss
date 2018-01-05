@@ -259,7 +259,7 @@
 .box {
   padding: 30px;
   font-size: 100px;
-  background: rgba(160, 215, 151, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   color: #ffffff !important;
   border-radius: 3px;
   -webkit-box-shadow: 14px 11px 34px -4px rgba(0, 0, 0, 0.54);
@@ -272,6 +272,7 @@
   width: 50px;
 }
 
+// background
 #video-background {
   /*  making the video fullscreen  */
   position: fixed;
