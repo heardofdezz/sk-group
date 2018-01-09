@@ -12,14 +12,12 @@ gem 'autoprefixer-rails'
 
 
 group :test do
-  gem "shoulda"
-  gem "faker"
+  gem 'shoulda'
+  gem 'faker'
 end
 
 group :development, :test do
-  gem "factory_girl_rails"
-  # or
-  gem "factory_girl"
+  gem 'factory_bot'
 end
 
 
