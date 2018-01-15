@@ -6449,3 +6449,133 @@ Processing by SkController#index as HTML
 Completed 200 OK in 1566ms (Views: 1564.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-01-05 23:20:13 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 1096ms (Views: 1089.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-05 23:21:57 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-05 23:22:49 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-05 23:23:49 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-05 23:25:30 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-01-06 00:33:35 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.7ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-15 13:29:27 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 4059ms (Views: 4053.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-15 13:30:10 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.7ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2018-01-15 13:31:47 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/users/1"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-01-15 13:34:43 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 1326ms (Views: 1325.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-01-15 13:35:13 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-15 15:10:47 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 2663ms (Views: 2657.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-01-15 15:11:05 +0100
+Processing by SkController#signup as HTML
+  Rendering sk/signup.html.erb within layouts/application
+  Rendered sk/signup.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
