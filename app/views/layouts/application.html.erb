@@ -3,14 +3,22 @@
   <head>
     <title>Sportskorner</title>
     <%= csrf_meta_tags %>
-
+    <!-- CSS/JS -->
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+    <!-- Polices -->
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+    <!--bootstrap 4 -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-CF64UnUzxV691sOmqagn+TQJmesKn1fgsYmlIPqYB5nm0m32jYo3LiX1BcrbuESZ" crossorigin="anonymous">
+
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
   </head>
   <body>
+    <!--Navbar-->
     <%= render 'layouts/navbar' %>
-
+    <!--Content -->
     <%= yield %>
   </body>
 </html>
