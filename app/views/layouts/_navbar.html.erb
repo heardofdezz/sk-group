@@ -39,23 +39,18 @@
                  <i class="fa fa-fw fa-lock"></i> Login
               </a>
               <div class="dropdown-menu dropdown-size-280">
-                 <form>
-                   <div class="form-group">
-                     <div class="input-group">
-                      <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                      <input type="text" class="form-control" placeholder="Username">
-                     </div>
-                   </div>
-                   <div class="form-group">
-                     <div class="input-group">
-                      <span class="input-group-addon"><i class="fa fa-shield"></i></span>
-                      <input type="password" class="form-control" placeholder="Password">
-                     </div>
-                   </div>
-                   <div class="text-center">
-                     <button type="submit" class="btn btn-primary">Login <i class="fa fa-sign-in"></i></button>
-                   </div>
-                 </form>
+
+                   <%= form_for(:session, url: login_path) do |f| %>
+
+                     <%= f.label :username %>
+                     <%= f.text_field :username, class: 'form-control' %>
+
+                     <%= f.label :password %>
+                     <%= f.password_field :password, class: 'form-control' %>
+
+                     <%= f.submit "Log in", class: "btn btn-primary" %>
+                   <% end %>
+
               </div>
              </li>
              <!--- //////////// Login /////////// -->
