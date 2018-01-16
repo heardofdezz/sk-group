@@ -16,8 +16,9 @@ group :test do
 end
 
 group :development, :test do
+  gem 'factory_bot'
   # or
-  gem 'factory_girl'
+  #gem 'factory_girl'
 end
 
 #----------------------------------------------------------------------------------------

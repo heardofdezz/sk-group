@@ -1,4 +1,5 @@
 
+
 FactoryGirl.define do
   factory :user do
     firstname Faker::Name.first_name
