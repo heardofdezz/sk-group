@@ -1,15 +1,14 @@
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
 #--------------Added by Dezz --------------------------------------------------------------------------
-
+# gem 'sprockets-rails', require: 'sprockets/railtie' # Allan
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
 gem 'autoprefixer-rails'
-
 
 group :test do
   gem 'shoulda'
@@ -17,15 +16,13 @@ group :test do
 end
 
 group :development, :test do
+<<<<<<< HEAD
   gem 'factory_bot'
+=======
+  # or
+  gem 'factory_girl'
+>>>>>>> 26c5e07f84b5e7923f186283aef4b5205a76cfbd
 end
-
-
-
-
-
-
-
 
 #----------------------------------------------------------------------------------------
 
@@ -40,7 +37,7 @@ group :production do
   gem 'pg'
 end
 
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -66,7 +63,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
@@ -82,4 +79,4 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
