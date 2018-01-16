@@ -17,12 +17,7 @@ group :test do
 end
 
 group :development, :test do
-<<<<<<< HEAD
   gem 'factory_bot'
-=======
-  # or
-  gem "factory_girl"
->>>>>>> e2b0a9972f14bc5db6a677ec5b83035d51f67d54
 end
 
 

@@ -15,8 +15,14 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
-    @user.save
-    redirect_to users_new_path
+    if @user.save
+       log_in @user
+       flash[:success] = "Bienvenue sur SportSKorner!"
+       redirect_to @user
+       #redirect_to login_path
+    else
+      render 'new'
+    end
   end
 
   private
