@@ -204,11 +204,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
-<<<<<<< HEAD
   factory_bot
-=======
-  factory_girl
->>>>>>> 26c5e07f84b5e7923f186283aef4b5205a76cfbd
   faker
   font-awesome-rails
   jbuilder (~> 2.5)
