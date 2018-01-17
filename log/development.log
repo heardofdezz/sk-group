@@ -7283,6 +7283,7 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 330ms (Views: 319.7ms | ActiveRecord: 6.3ms)
 
 
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2017-12-30 12:49:24 +0100
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
 Processing by SkController#index as HTML
@@ -10610,5 +10611,127 @@ Processing by SkController#index as HTML
   Rendered sk/index.html.erb within layouts/application (0.3ms)
   Rendered layouts/_navbar.html.erb (0.7ms)
 Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-16 21:34:14 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_navbar.html.erb (2.6ms)
+Completed 200 OK in 24170ms (Views: 24139.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-01-16 21:34:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-01-16 21:35:04 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navbar.html.erb (2.5ms)
+Completed 200 OK in 222ms (Views: 218.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-16 21:35:06 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navbar.html.erb (2.5ms)
+Completed 200 OK in 234ms (Views: 222.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-16 21:35:07 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navbar.html.erb (2.6ms)
+Completed 200 OK in 236ms (Views: 228.5ms | ActiveRecord: 0.0ms)
+=======
+Started GET "/" for 127.0.0.1 at 2018-01-16 16:31:07 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 1551ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntud/Documents/sk-group/app/views"
+):
+     9:     <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+    10:   </head>
+    11:   <body>
+    12:     <%= render 'layouts/header' %>
+    13: 
+    14:     <%= yield %>
+    15:   </body>
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1694823861438376002_15759880'
+Started GET "/" for 127.0.0.1 at 2018-01-16 16:31:28 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  Rendered layouts/_navbar.html.erb (81.3ms)
+Completed 200 OK in 368ms (Views: 361.6ms | ActiveRecord: 3.7ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-01-16 16:31:41 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hyi32aaavSTam178BHFL6OcR/A/tKmQ/JqKRFJdLGzvavncIyrGoXD1taOj6NIL5HIx+uvlbEvL3DYdelJV5oQ==", "session"=>{"username"=>"lordflvcko", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "lordflvcko"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 187ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2018-01-16 16:31:41 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_navbar.html.erb (9.7ms)
+Completed 200 OK in 295ms (Views: 283.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-16 16:31:45 +0100
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_navbar.html.erb (11.0ms)
+Completed 200 OK in 298ms (Views: 291.2ms | ActiveRecord: 3.2ms)
+>>>>>>> master
 
 
