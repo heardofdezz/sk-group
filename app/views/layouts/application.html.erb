@@ -18,7 +18,12 @@
        crossorigin="anonymous"></script>
     </head>
   <body>
-    <%= render 'layouts/navbar' %>
+    <!--Navbar-->
+    <% unless current_page?(signup_path) %>
+      <%= render 'layouts/navbar' %>
+    <% else %>
+      <%= render 'layouts/navbarSignup' %>
+    <% end %>
     <!--Content -->
     <%= yield %>
   </body>
