@@ -14,6 +14,7 @@ Things you may want to cover:
 - [X] Pleins de trucs
 - [X] Bracket tournament
 - [X] Fix login dropdown 
+- [X] Fix responsive navbar
 - [ ] Fix Bracket tournament
 - [ ] Fix login/logout
 - [ ] Beautyliser la landingPage
