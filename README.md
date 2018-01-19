@@ -13,9 +13,9 @@ Things you may want to cover:
 - [X] Pleins de trucs
 - [X] Pleins de trucs
 - [X] Bracket tournament
+- [X] Fix login dropdown 
 - [ ] Fix Bracket tournament
 - [ ] Fix login/logout
-- [ ] Fix login dropdown 
 - [ ] Beautyliser la landingPage
 - [ ] Rajouter fonction twitter
 - [ ] Rajouter login with Fb fonction
