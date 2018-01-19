@@ -11407,3 +11407,22 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-01-19 11:56:58 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SkController#index as HTML
+  Rendering sk/index.html.erb within layouts/application
+  Rendered sk/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered layouts/_navbar.html.erb (4.6ms)
+Completed 200 OK in 185ms (Views: 178.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-01-19 11:57:02 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (22.6ms)
+  Rendered users/new.html.erb within layouts/application (23.7ms)
+  Rendered layouts/_navbarSignup.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 61.4ms | ActiveRecord: 0.3ms)
+
+
