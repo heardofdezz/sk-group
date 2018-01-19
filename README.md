@@ -12,7 +12,8 @@ Things you may want to cover:
 - [X] Pleins de trucs
 - [X] Pleins de trucs
 - [X] Pleins de trucs
-- [ ] Bracket tournament
+- [X] Bracket tournament
+- [ ] Fix Bracket tournament
 - [ ] Fix login/logout
 - [ ] Fix login dropdown 
 - [ ] Beautyliser la landingPage
