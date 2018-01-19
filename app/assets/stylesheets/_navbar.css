@@ -57,3 +57,15 @@
         float:none !important;
     }
 }
+
+/* login dropdown */
+.ld {
+padding: 0.5rem 10px;
+min-width: 18rem;
+}
+
+/* personalizer font-awesome */
+.pf {
+  margin: 10px;
+  color: #4652ae;
+}
