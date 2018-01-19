@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   resources :sessions
 
   root 'sk#index'
+  get 'bracket', to: 'sk#bracket'
   get 'worldcup', to: 'sk#worldcup'
   get 'signup', to: 'users#new'
   get 'login', to: 'sessions#new'

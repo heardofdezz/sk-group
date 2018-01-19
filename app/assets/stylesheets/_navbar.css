@@ -8,5 +8,18 @@
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   margin: 0 3rem;
   font-size: 30px;
-  pointer-events: none;
+}
+
+.logo-title-signup {
+  color: red;
+  font-family: 'Racing Sans One', cursive;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-align: center;
+  font-size: 30px;
+  margin: 25px auto;
+}
+
+.logo-title:hover, .logo-title-signup:hover {
+    color: red;
+    text-decoration: none;
 }
