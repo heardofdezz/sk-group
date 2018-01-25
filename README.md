@@ -14,8 +14,11 @@ Things you may want to cover:
 - [X] Pleins de trucs
 - [ ] Bracket tournament
 - [ ] Fix login/logout
-- [ ] Fix login dropdown 
-- [ ] Beautyliser la landingPage
+- [ ] Store db into json file
+- [ ] Fix login dropdown
+- [ ] Beautyliser/Front la landingPage
 - [ ] Rajouter fonction twitter
-- [ ] Rajouter login with Fb fonction
-
+- [ ] Rajouter login with Fb/twitter fonction
+- [ ] Rajouter moyen de payment
+- [ ] Beautyliser/Front Formulaire
+- [ ] Beautyliser/Front User/login/profile/
