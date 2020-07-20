@@ -1,0 +1,19 @@
+<p>  Meeehh </p>
+<%=
+  players = []
+  32.times do |n|
+    players << { login: "Player#{n}", seed_value: n }
+  end
+
+  bracket = BracketTree::Bracket::DoubleElimination.by_size 32
+  bracket.seed players
+
+# Player1 wins Rd 1
+bracket.match_winner(1)
+bracket.at(1).payload[:winner] = true
+
+# Player3 wins Rd 1
+bracket.match_winner(5)
+bracket.at(1).payload[:winner] = true
+
+ %>
