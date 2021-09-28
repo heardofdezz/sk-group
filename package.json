@@ -2,6 +2,6 @@
   "name": "sportskorner",
   "private": true,
   "dependencies": {
-    "jquery-bracket": "^0.11.0"
+    "jquery-bracket": "0.11.0"
   }
 }
