@@ -10,7 +10,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap_form',
     git: 'https://github.com/bootstrap-ruby/rails-bootstrap-forms.git',
     branch: 'master'
-gem 'coffee-rails', '~> 4.2' # Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 5.0' # Use CoffeeScript for .coffee assets and views
 gem 'rails', '~> 6.1.0'
 # gem 'sprockets-rails', require: 'sprockets/railtie' # Allan
 # gem 'bootstrap-sass', '~> 3.3.7'
