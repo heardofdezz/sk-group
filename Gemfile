@@ -11,7 +11,7 @@ gem 'bootstrap_form',
     git: 'https://github.com/bootstrap-ruby/rails-bootstrap-forms.git',
     branch: 'master'
 gem 'coffee-rails', '~> 4.2' # Use CoffeeScript for .coffee assets and views
-gem 'rails', '~> 6.1.0'
+gem 'rails', '~> 7.0.0'
 # gem 'sprockets-rails', require: 'sprockets/railtie' # Allan
 # gem 'bootstrap-sass', '~> 3.3.7'
 gem 'font-awesome-rails'
