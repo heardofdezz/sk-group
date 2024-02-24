@@ -40,7 +40,7 @@ group :development do
 end
 
 group :development do
-  gem 'listen', '>= 3.0.5', '< 3.7.1'
+  gem 'listen', '>= 3.0.5', '< 3.9.1'
   gem 'spring' # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'web-console', '>= 3.3.0' # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
